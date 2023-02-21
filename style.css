@@ -1,29 +1,73 @@
 main {
-  margin-top: 60px;
+	margin-top: 60px;
 }
 
 main h1 {
-  margin: 0 10px;
-  text-align: center;
-  font-family: "Amatic SC", cursive;
-  font-size: 65px;
+	margin: 0 10px;
+	text-align: center;
+	font-family: "Amatic SC", cursive;
+	font-size: 65px;
 }
 
 main h2 {
-  margin: 18px 0 12px 0;
-  border-bottom: 1px solid #5c4f41;
-  font-family: "Special Elite", cursive;
-  font-size: 24px;
+	margin: 18px 0 12px 0;
+	border-bottom: 1px solid #5c4f41;
+	font-family: "Special Elite", cursive;
+	font-size: 24px;
 }
 
 main h3 {
-  margin: 18px 0 12px 0;
-  border-bottom: 1px solid #5c4f41;
-  font-family: "Special Elite", cursive;
-  font-size: 18px;
+	margin: 18px 0 12px 0;
+	border-bottom: 1px solid #5c4f41;
+	font-family: "Special Elite", cursive;
+	font-size: 18px;
 }
 
 main p {
-  font-family: "Roboto", sans-serif;
-  margin-top: 0;
+	font-family: "Roboto", sans-serif;
+	margin-top: 0;
+}
+
+#basics {
+	display: flex;
+	flex-direction: column;
+	width: 25vw;
+}
+
+#basics img {
+	width: 25vw;
+	height: auto;
+}
+
+#pour {
+	width: 55vw;
+	height: auto;
+}
+
+#hero {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5vh;
+}
+
+#facts-container {
+	margin-top: 8vh;
+	margin-bottom: 8vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.facts {
+	width: 30vw;
+}
+
+#gallery {
+	background-color: #5c4f41;
+	display: flex;
+	justify-content: space-around;
+}
+
+#gallery img {
+	width: 22vw;
+	padding: 10px;
 }
